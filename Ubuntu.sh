@@ -5,7 +5,7 @@ apt-get install libxml2 libxml2-dev libssl-dev pkg-config curl libcurl4-nss-dev 
 
 #install php
 cd php-5.5.10
-'./configure'  '--prefix=/usr/local/php-5.5.10' '--with-mysql' '--with-libdir=lib64' '--with-config-file-path=/usr/local/php-5.4.16/etc' '--enable-fpm' '--with-openssl' '--with-zlib' '--with-curl' '--with-pear' '--enable-mbstring' '--with-mcrypt' '--with-mysqli' '--with-pgsql' '--enable-pdo' '--with-pdo-mysql' '--enable-zip'
+'./configure'  '--prefix=/usr/local/php-5.5.10' '--with-mysql' '--with-libdir=lib64' '--with-config-file-path=/usr/local/php-5.5.10/etc' '--enable-fpm' '--with-openssl' '--with-zlib' '--with-curl' '--with-pear' '--enable-mbstring' '--with-mcrypt' '--with-mysqli' '--with-pgsql' '--enable-pdo' '--with-pdo-mysql' '--enable-zip'
 make && make install
 
 pt-get install git postgresql
